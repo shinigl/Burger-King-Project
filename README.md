@@ -26,7 +26,6 @@ Try the application live: [HungerZone Demo](https://food-order-aniket.netlify.ap
 
 ### Interactive Features:
 - **Sound effects** for ordering and completion.
-- **Feedback prompt** for user response, allowing thumbs up or thumbs down.
 - Custom **order numbers** for a personalized experience.
 
 ## Technologies Used
