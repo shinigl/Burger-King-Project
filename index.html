@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger King</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to HungerZone</h1>
+        <div id="order-id"> 
+            <!-- Order-ID will be shown here -->
+        </div>
+    </header>
+    <section id="menu">
+        <h2>Select Your Food</h2>
+        
+        <div id="food-items">
+            <label><input type="checkbox" value="Burger">Burger</label>
+            <label><input type="checkbox" value="Pizza"> Pizza</label>
+            <label><input type="checkbox" value="Salad"> Salad</label>
+            <label><input type="checkbox" value="Drink"> Drink</label>
+           
+          </div>
+          <button id="order-btn">Order Food</button>
+
+          <div id="order-status">
+            <div id="loading-msg" style="display: none;">Preparing your order..</div>
+            <div id="food-img"> 
+                <!-- Food items will be shown here  -->
+            </div>
+          </div>
+    
+    </section>
+
+  <!-- Adding audio effects -->
+  <audio id="click-sound" src="click.mp3"></audio>
+  <audio id="complete-sound" src="complete.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
